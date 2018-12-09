@@ -80,9 +80,9 @@ if( $splitted[2] == "LeaderboardGet")
         }
 
               $servername = localhost;
-              $db_name = "practic3_transaction";
-              $db_user = "practic3_user";
-              $db_password = 'test*server*games';
+              $db_name = "--";
+              $db_user = "--";
+              $db_password = '--';
               // Create connection
               $conn = new mysqli($servername, $db_user, $db_password, $db_name);
               // Check connection
